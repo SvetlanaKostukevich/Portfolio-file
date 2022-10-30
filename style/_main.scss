@@ -1,0 +1,50 @@
+.main {
+    &__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50px;
+    
+    }
+    &__title {
+        margin: 0;
+        width: 123.5px;
+        font-size: 47px;
+        font-weight: 700;
+    }
+    &__text {
+        width: 145px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    &__links {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+    }
+    &__link {
+        font-size: 17px;
+        text-decoration: none;
+        color: #828282;
+        font-weight: 700;
+        
+        &:first-child::after {
+            content: ' ';
+            display: inline-block;
+            width: 13px;
+            height: 2px;
+            background-color: black;
+            margin-top: 5px;
+        }
+        &--active {
+            color: black;
+        }
+    }
+    &__photo {
+        margin-bottom: 104px;
+    }
+    &__image {
+        width: 100%;
+    }
+
+
+}

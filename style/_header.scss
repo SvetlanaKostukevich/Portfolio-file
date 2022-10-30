@@ -1,0 +1,25 @@
+.header {
+    margin-bottom: 42px;
+}
+
+.nav {
+    border-bottom: 1px solid #828282;
+    &__list {
+        padding: 0;
+        list-style: none;
+        display:flex;
+        justify-content: space-between;
+        margin-top: 32.99px;
+        margin-bottom: 31px;
+    } 
+    &__link {
+        color:#828282;
+        text-decoration: none;
+        font-weight: 700;
+
+        &:hover, &:active {
+            color:#070707;
+        }
+    } 
+
+}
